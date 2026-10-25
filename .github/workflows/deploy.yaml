@@ -30,9 +30,11 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
+        working-directory: ./FlapPyBird-NEAT
         run: make init
 
       - name: Build web version
+        working-directory: ./FlapPyBird-NEAT
         run: make web-build
 
       - name: Deploy to GitHub Pages
