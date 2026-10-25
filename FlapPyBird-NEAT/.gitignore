@@ -1,0 +1,23 @@
+*.pyc
+build
+.python-version
+*.egg-info
+.vscode
+.DS_Store
+
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Training outputs
+neat-checkpoint-*
+best_genome.pkl
+neat_stats.pkl
+genome_*.pkl
+
+# Build and editor files
+build/
+.vscode/
